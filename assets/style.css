@@ -34,6 +34,7 @@ body, main {
 
 h2 {
     font-size: 40px;
+    margin: 0 10px;
     font-family: "passion one", sans-serif;
 }
 
@@ -165,9 +166,7 @@ header a:hover {
 /* ________________________________________________SEÇÃO 1________________________________________________ */
 
 .seção-1 {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    
+    margin: 100px 0;
 }
 
 .seção-1 span {
@@ -176,16 +175,16 @@ header a:hover {
 }
 
 .caixas {
-    margin: 20px 0;
+    margin: 20px auto;
 }
 
-.caixa1 p {
+.caixa1 p, .caixa2 p, .caixa3 p, .caixa4 p {
     color: var(--principal);
     margin: 0 10px;
     font-size: 20px;
 }
 
-.caixa1 {
+.caixa1, .caixa3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -196,49 +195,7 @@ header a:hover {
     border: 1px solid var(--secundaria);
 }
 
-.caixa2 p {
-    color: var(--secundaria);
-    margin: 0 10px;
-    font-size: 20px;
-}
-
-.caixa2 {
-    position: relative;
-    left: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    width: 700px;
-    height: 88px;
-    box-shadow: var(--sombra);
-    border: 1px solid var(--principal);
-}
-
-.caixa3 p {
-    color: var(--principal);
-    margin: 0 10px;
-    font-size: 20px;
-}
-
-.caixa3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    width: 700px;
-    height: 88px;
-    box-shadow: var(--sombra);
-    border: 1px solid var(--secundaria);
-}
-
-.caixa4 p {
-    color: var(--secundaria);
-    margin: 0 10px;
-    font-size: 20px;
-}
-
-.caixa4 {
+.caixa2, .caixa4 {
     position: relative;
     left: 50%;
     display: flex;
@@ -256,7 +213,7 @@ header a:hover {
 /* ________________________________________________SEÇÃO 2________________________________________________ */
 
 .seção-2 {
-    display: inline-block;
+    display: block;
     margin: 20px 0;
 }
 
@@ -272,7 +229,6 @@ header a:hover {
     margin: 20px auto;
     width: 50vw;
     font-size: 20px;
-
 }
 
 .seção-2 #ideal {
@@ -371,6 +327,7 @@ header a:hover {
 .seção-4 .container-cta {
     display: flex;
 }
+
 .seção-4 .caixa-cta {
     width: 476px;
     height: 679px;
@@ -395,7 +352,7 @@ header a:hover {
     font-family: "passion one", sans-serif;
 }
 
-.seção-4 .preços #p-antigo, #p-antigo {
+.seção-4 .preços #p-antigo{
     color: var(--principal);
     font-size: 24px;
 
@@ -493,6 +450,11 @@ footer svg {
     padding: 10px 0;
     margin: 0 50px;
     cursor: pointer;
+}
+
+footer svg:hover {
+    fill: var(--principal);
+    transition: .5s;
 }
 
 footer a {
