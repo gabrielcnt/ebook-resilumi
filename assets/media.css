@@ -18,12 +18,25 @@
         width: 50px;
     }
 
-    header ul {
+    header nav {
         display: none;
+        position: relative;
+        width: 200px;
+        height: 230px;
+        top: 104px;
+        left: 15px;
         margin-top: 100px;
-        margin: auto;
         background-color: rgba(0, 0, 0, 0.39);
         box-shadow: 2px 8px 25px rgba(0, 0, 0, 0.295);
+    }
+
+    header nav ul, li {
+        display: block;
+        margin: 0;
+    }
+
+    header nav.ativar {
+        display: block;
     }
 
     header a {
@@ -44,7 +57,7 @@
     .linha {
         display: block;
         width: 50px;
-        height: 2px;
+        height: 6px;
         background-color: var(--principal);
         margin: 7px auto;
         border-radius: 10px;
@@ -54,14 +67,14 @@
     }
 
     .btn-burger.ativar .linha:nth-child(1) {
-        transform: translateY(9px) rotate(-45deg);
+        transform: translateY(13px) rotate(-45deg);
     }
     .btn-burger.ativar .linha:nth-child(2) {
        width: 0;
     }
     
     .btn-burger.ativar .linha:nth-child(3) {
-        transform: translateY(-9px) rotate(45deg);
+        transform: translateY(-13px) rotate(45deg);
     }
 
     /* ________________________________________________HEADER________________________________________________ */
