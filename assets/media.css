@@ -22,8 +22,8 @@
         display: none;
         position: relative;
         width: 200px;
-        height: 230px;
-        top: 104px;
+        height: 320px;
+        top: 150px;
         left: 15px;
         margin-top: 100px;
         background-color: rgba(0, 0, 0, 0.39);
@@ -40,7 +40,7 @@
     }
 
     header a {
-        font-size:1rem;
+        font-size:1.2rem;
     }
 
     .btn-burger {
@@ -114,19 +114,23 @@
 
     .hero #cta1 .botão {
         display: flex;
-        width: 150px;
-        height: 50px;
-        margin-top: 10px;
+        width: 160px;
+        height: 60px;
         margin: auto;
-        
+        margin-top: 10px;
     }
+
+    .hero #cta1 .botão p {
+        font-size: 18px;
+    }
+
 
     .hero #ebook1 {
         display: block;
     }
 
     .hero img {
-        width: 250px;
+        width: 300px;
         position: static;
         user-select: none;
     }
@@ -135,7 +139,7 @@
 
     .video {
         width: 80vw;
-        margin-top: 150px;
+        margin-top: 160px;
         height: 400px;
         border: 1px solid var(--secundaria);
         
@@ -155,7 +159,7 @@
     .caixa1 p, .caixa2 p, .caixa3 p, .caixa4 p {
         color: var(--principal);
         margin: 0 10px;
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .caixa1, .caixa3 {
@@ -164,7 +168,7 @@
         left: 5vw;
         padding: 10px;
         width: 300px;
-        height: 60px;
+        height: 70px;
         margin: 0 auto;
         box-shadow: var(--sombra);
         border: 1px solid var(--secundaria);
@@ -178,7 +182,7 @@
         justify-content: center;
         padding: 10px;
         width: 300px;
-        height: 60px;
+        height: 70px;
         margin: 30px auto;
         box-shadow: var(--sombra);
         border: 1px solid var(--principal);
@@ -203,7 +207,7 @@
     }
 
     .cards p {
-        font-size: 15px;
+        font-size: 17px;
         margin-top: 10px;
     }
 
@@ -229,7 +233,7 @@
     /* ________________________________________________SEÇÃO 3________________________________________________ */
 
     .seção-3 img {
-        width: 100px;
+        width: 150px;
         margin: 0 10px;
     }
 
@@ -283,11 +287,15 @@
         font-size: 20px;
     }
     
-    .botão2 {
-        width: 150px;
-        height: 50px;
+    .seção-4 .botão2 {
+        width: 200px;
+        height: 80px;
         margin: auto;
         margin-top: 30px;
+    }
+
+    .seção-4 .botão2 p {
+        font-size: 18px;
     }
 
     .seção-4 .mt-ebook img{

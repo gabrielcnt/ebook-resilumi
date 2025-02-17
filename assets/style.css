@@ -19,6 +19,10 @@
     text-transform: capitalize;
 }
 
+a {
+    text-decoration: none;
+}
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 120px;
@@ -135,7 +139,7 @@ header a:hover {
     transition: 0.2s;
 }
 
-.hero #cta1 .botão:hover {
+.hero #cta1 .botão a:hover {
     box-shadow: 0px 0px 20px var(--principal);
     transition: 0.2s;
     color: var(--secundaria);
@@ -405,7 +409,7 @@ header a:hover {
     transition: 0.2s;
 }
 
-.botão2:hover {
+.botão2 a:hover {
     box-shadow: 0px 0px 20px var(--principal);
     transition: 0.2s;
     color: var(--secundaria);
