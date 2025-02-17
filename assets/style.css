@@ -150,6 +150,18 @@ header a:hover {
 
 /* ________________________________________________hERO________________________________________________ */
 
+
+/* ________________________________________________VIDEO________________________________________________ */
+
+.video {
+    width: 80vw;
+    height: 600px;
+    border: 1px solid var(--secundaria);
+    margin: 70px auto;
+}
+
+/* ________________________________________________VIDEO________________________________________________ */
+
 /* ________________________________________________SEÇÃO 1________________________________________________ */
 
 .seção-1 {
@@ -305,7 +317,7 @@ header a:hover {
     transition: 0.5s;
 }
 
-svg {
+.seção-2 svg {
     width: 150px;
     margin-bottom: 20px;
     fill: var(--principal);
@@ -456,6 +468,7 @@ svg {
 .selos img {
     width: 200px;
     margin: 50px;
+    user-select: none;
 }
 
 .selos #segura {
@@ -466,6 +479,22 @@ svg {
 
 /* ________________________________________________FOOTER________________________________________________ */
 
+footer {
+    background-color: black;
+    width: 100vw;
+    height: 11vh;
+    padding: 10px;
+    box-shadow: var(--sombra);
+}
+
 footer svg {
     fill: var(--secundaria);
+    width: 50px;
+    padding: 10px 0;
+    margin: 0 50px;
+    cursor: pointer;
+}
+
+footer a {
+    text-decoration: none;
 }
