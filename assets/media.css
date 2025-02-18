@@ -234,12 +234,16 @@
 
     .seção-3 img {
         width: 150px;
-        margin: 0 10px;
+        margin: auto;
     }
 
-    .seção-3 img:hover {
-        width: 100px;
-        transition: .5s;
+    .seção-3 .imagens {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px; 
+        width: 100vw;
+        padding: 0px;
+        margin: 30px 0;
     }
 
     /* ________________________________________________SEÇÃO 4________________________________________________ */

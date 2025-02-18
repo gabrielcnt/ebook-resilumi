@@ -297,19 +297,14 @@ header a:hover {
 }
 
 .seção-3 img {
-    width: 300px;
+    width: 200px;
     margin: 0 10px;
-}
-
-.seção-3 img:hover {
-    width: 320px;
-    transition: .5s;
 }
 
 .seção-3 .imagens {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 50px; 
     width: 100vw;
     padding: 50px;
 }
