@@ -46,7 +46,7 @@ h2 {
 header {
     position: fixed;
     z-index: 2;
-    background-color: rgba(0, 0, 0, 0.39);
+    background-color: black;
     width: 100vw;
     padding: 5px;
     display: flex;
@@ -69,16 +69,16 @@ header li {
 }
 
 header a {
-    color: var(--principal);
+    color: white;
     text-decoration: none;
     font-family: "passion one", sans-serif;
 }
 
 header a:hover {
-    border-bottom: 1px solid var(--principal);
+    border-bottom: 1px solid var(--secundaria);
     margin-bottom: 20px;
     transition: 0.5s;
-    color: var(--secundaria);
+    color: var(--principal);
 }
 
 /* ________________________________________________HEADER________________________________________________ */
@@ -304,7 +304,7 @@ header a:hover {
 .seção-3 .imagens {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 50px; 
+    gap: 20px; 
     width: 100vw;
     padding: 50px;
 }
