@@ -1,0 +1,11 @@
+@media  screen and (min-width: 501px ) and (max-width: 1300px) {
+
+    :root {
+        --font1: "Passion One", "sans-serif";
+        --background: #303030;
+        --principal: #E400C6;
+        --secundaria: #FF8800;
+        --sombra: 2px 8px 25px rgba(0, 0, 0, 0.295);
+    }
+
+}
