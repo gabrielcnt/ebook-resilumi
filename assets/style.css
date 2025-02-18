@@ -306,7 +306,10 @@ header a:hover {
     transition: .5s;
 }
 
-.seção-3 .imagens1 {
+.seção-3 .imagens {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
     width: 100vw;
     padding: 50px;
 }

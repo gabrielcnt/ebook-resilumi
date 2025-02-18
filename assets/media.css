@@ -86,7 +86,7 @@
         padding: 10px;
        padding-top: 90px;
         width: 100vw;
-        height: 400px;
+        height: 500px;
         background-image: url(../imagens/fundo-pigmentos.png);
         background-size: 100vw;
         background-position: 0px;
@@ -99,14 +99,14 @@
     }
     
     .hero #cta1 h1 {
-        line-height: 20px;
+        line-height: 30px;
         font-size: 25px;
         font-family: "passion one", sans-serif;
     
     }
 
     .hero #cta1 p {
-        font-size: 13px;
+        font-size: 18px;
         line-height: 20px;
         margin: 5px 0;
         font-style: italic;
