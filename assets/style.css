@@ -256,7 +256,7 @@ header a:hover {
     height: 380px;
     border: 1px solid var(--principal);
     border-radius: 20px;
-    margin: 0 50px;
+    margin: 0 auto;
     padding: 20px;
     padding-top: 100px;
     box-shadow: var(--sombra);
@@ -298,7 +298,7 @@ header a:hover {
 
 .seção-3 img {
     width: 200px;
-    margin: 0 10px;
+    margin: 0 auto;
 }
 
 .seção-3 .imagens {
