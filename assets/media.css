@@ -144,11 +144,19 @@
     /* ________________________________________________VIDEO________________________________________________ */
 
     .video {
-        width: 80vw;
+        width: 37vw;
         margin-top: 100px;
-        height: 300px;
+        height: 46vh;
         border: 1px solid var(--secundaria);
         
+    }
+
+    iframe {
+        position:relative; 
+        padding-bottom:0; 
+        overflow:hidden; 
+        max-width:36vw; 
+        height:45vh; 
     }
 
     /* ________________________________________________SEÇÃO 1________________________________________________ */

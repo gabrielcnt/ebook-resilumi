@@ -159,10 +159,14 @@ header a:hover {
 /* ________________________________________________VIDEO________________________________________________ */
 
 .video {
-    width: 80vw;
-    height: 600px;
+    width: 412px;
+    height: 81vh;
     border: 1px solid var(--secundaria);
     margin: 70px auto;
+}
+
+iframe {
+    height: 80vh;
 }
 
 /* ________________________________________________VIDEO________________________________________________ */
@@ -180,6 +184,7 @@ header a:hover {
 
 .caixas {
     margin: 20px auto;
+    
 }
 
 .caixa1 p, .caixa2 p, .caixa3 p, .caixa4 p {
